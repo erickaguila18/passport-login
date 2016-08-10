@@ -11,8 +11,8 @@ var express = require('express')
 var passport = require('passport')
   , FacebookStrategy = require('passport-facebook').Strategy;
 
-var FACEBOOK_APP_ID = '1665906187062783';
-var FACEBOOK_APP_SECRET = '0be733f75a00bf42932bf9eb8b7a8d33';
+var FACEBOOK_APP_ID = '';
+var FACEBOOK_APP_SECRET = '';
 
 passport.use(new FacebookStrategy({
     clientID: FACEBOOK_APP_ID,
